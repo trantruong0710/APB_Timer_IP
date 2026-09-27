@@ -1,0 +1,2 @@
+var g_data = {"name":"../tb/test_bench.v","src":"module test_bench;\n\n    reg a,b,c;\n    wire z;\n\n    top u_dut(.*);\n\n    initial begin\n        a = 0;\n        b = 0;\n        c = 0;\n\n        #100;\n\n        //Write you test here\n	a = 1;\n	b = 1;\n	c = 0;\n	#100;\n	a = 0;\n	b = 1;\n	c = 0;\n	#100;\n	a = 1;\n	b = 0;\n	c = 0;\n	#100;\n	a = 1;\n	b = 0;\n	c = 1;\n	#100;\n	a = 0;\n	b = 0;\n	c = 0;\n\n        #100;\n        $finish;\n\n    end\n\nendmodule\n","lang":"verilog"};
+processSrcData(g_data);

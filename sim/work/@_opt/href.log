@@ -1,0 +1,14 @@
+BEGIN 1:counter_control:fast:work
+    div_cnt :  1:test_bench:fast:work
+END 
+BEGIN 1:interrupt:fast:work
+    int_st :  1:test_bench:fast:work
+END 
+BEGIN 1:timer_top:fast:work
+    rdata_dec :  1:test_bench:fast:work
+    cnt_en :  1:test_bench:fast:work
+    rd_en :  1:test_bench:fast:work
+    cnt :  1:test_bench:fast:work
+    addr :  1:test_bench:fast:work
+    halt_ack :  1:test_bench:fast:work
+END 
