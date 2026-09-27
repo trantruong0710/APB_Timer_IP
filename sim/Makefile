@@ -1,9 +1,9 @@
 ##################################################################################################
-#This file created by Huy Nguyen
-#Updated date: 6/30/2019
-#Example run string: make TESTNAME={name_of_testcase} {optional}
-#		     make TESTNAME=counter_test all 
+# Makefile for APB Timer IP simulation and coverage
+# Based on an original template by Huy Nguyen
+# Modified for this project by Truong Minh Tran
 ##################################################################################################
+####
 #Define variables
 TESTNAME 	?= test
 TB_NAME 	?= test_bench
